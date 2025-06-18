@@ -22,3 +22,7 @@ function My_First_Function() { //Initializes a function that turns a button's te
     var str = "This is the button text!";
     document.getElementById("Button_Text").innerHTML = str;
 }
+
+var Sent1 = "This is the beginning of the string", Sent2 = " and this is the end of the string."; //Initializes two variables within the same block of code to be called and concatenated below.
+
+document.write(Sent1 + Sent2);
